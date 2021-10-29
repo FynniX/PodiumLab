@@ -7,9 +7,11 @@ require('dotenv').config();
 function createWindow() {
     // Create the browser window.
     const window = new BrowserWindow({
-        width: 1200,
-        height: 800,
+        width: 650,
+        height: 650,
         title: "PodiumHub",
+        transparent:true,
+        frame: false,
         webPreferences: {
             nodeIntegration: false, // is default value after Electron v5
             contextIsolation: true, // protect against prototype pollution
@@ -20,10 +22,12 @@ function createWindow() {
 
     //Removes the Menubar.
     window.removeMenu();
+    window.setAlwaysOnTop(true, 'screen');
+    window.setMinimizable(false);
     // Load URL
     window.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`);
     // Open the DevTools.
-    isDev && window.webContents.openDevTools({ mode: 'detach' });
+    isDev && window.webContents.openDevTools();
 
     ipcMain.on('ReadyToListen', event => {
         if(!API.isConnected)

@@ -1,0 +1,97 @@
+{
+  "Circuit de Barcelona-Catalunya": {
+    "TrackId": 9,
+    "LapTime": 104,
+    "LossOfTime": 30
+  },
+  "Mount Panorama Circuit": {
+    "TrackId": 13,
+    "LapTime": 122,
+    "LossOfTime": 19
+  },
+  "Brands Hatch Circuit": {
+    "TrackId": 1,
+    "LapTime": 84,
+    "LossOfTime": 19
+  },
+  "Donington Park": {
+    "TrackId": 18,
+    "LapTime": 85,
+    "LossOfTime": 23
+  },
+  "Hungaroring": {
+    "TrackId": 7,
+    "LapTime": 104,
+    "LossOfTime": 24
+  },
+  "Autodromo Enzo e Dino Ferrari": {
+    "TrackId": 19,
+    "LapTime": 100,
+    "LossOfTime": 44
+  },
+  "Kyalami Grand Prix Circuit": {
+    "TrackId": 12,
+    "LapTime": 102,
+    "LossOfTime": 18
+  },
+  "WeatherTech Raceway Laguna Seca": {
+    "TrackId": 14,
+    "LapTime": 82,
+    "LossOfTime": 21
+  },
+  "Misano World Circuit": {
+    "TrackId": 4,
+    "LapTime": 94,
+    "LossOfTime": 28
+  },
+  "Monza Circuit": {
+    "TrackId": 3,
+    "LapTime": 108,
+    "LossOfTime": 31
+  },
+  "Nürburgring": {
+    "TrackId": 8,
+    "LapTime": 114,
+    "LossOfTime": 25
+  },
+  "Oulton Park": {
+    "TrackId": 17,
+    "LapTime": 93,
+    "LossOfTime": 18
+  },
+  "Circuit Paul Ricard": {
+    "TrackId": 5,
+    "LapTime": 115,
+    "LossOfTime": 27
+  },
+  "Silverstone": {
+    "TrackId": 6,
+    "LapTime": 118,
+    "LossOfTime": 23
+  },
+  "Snetterton Circuit": {
+    "TrackId": 16,
+    "LapTime": 106,
+    "LossOfTime": 21
+  },
+  "Circuit de Spa-Francorchamps": {
+    "TrackId": 2,
+    "LapTime": 138,
+    "LossOfTime": 57
+  },
+  "Suzuka Circuit": {
+    "TrackId": 15,
+    "LapTime": 120,
+    "LossOfTime": 27
+  },
+  "Circuit Zandvoort": {
+    "TrackId": 11,
+    "LapTime": 96,
+    "LossOfTime": 19
+  },
+  "Circuit Zolder": {
+    "TrackId": 10,
+    "LapTime": 88,
+    "LossOfTime": 30
+  }
+}
